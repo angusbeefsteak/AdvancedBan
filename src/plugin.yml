@@ -15,6 +15,7 @@ commands:
     aliases: [banip, ban-ip]
   kick:
     description: Kick a user
+    aliases: [deport] 
   warn:
     description: Warn a user permanently
   tempwarn:
