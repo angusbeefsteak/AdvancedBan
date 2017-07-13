@@ -1,0 +1,30 @@
+# The default layouts are in the Message.yml file!
+
+# Message-Layouts can not only be used for bans but also for mutes and warns
+# Varibales: %OPERATOR%, %REASON%, %PREFIX%, %DURATION%
+# For warns you have also the variable %COUNT% which will be
+# replaced with the current amount of warns the player already received
+# Example usage: /ban Leoko @ExampleLayout
+Message:
+  XrayHacking:
+   - '%PREFIX% &7Banned for XRAY Hacking'
+   - '&7'
+   - '&7 Banned by Staff Member: &b%OPERATOR%'
+   - '&7'
+   - "&cReason &8\xbb &7%REASON%"
+   - '&7'
+   - '&Appeal on the Forums at angusbeefmc.dx.am'
+
+# You would use this time-layout for example like this: "/tempban Leoko #ExampleLayout Hacking in FFA"
+# Or with "/tempwarn Leoko #ExampleLayout Advertising" or with "/tempwarn Leoko #ExampleLayout No capslock please"
+# You can also combine this with MessageLayouts like "/tempban Leoko #ExampleLayout @Hacking"
+Time:
+  ExampleLayout:
+    - '30m'
+    - '2h'
+    - '1d'
+    - '1w'
+    - '1mo'
+    - '2mo'
+    - '4mo'
+    - 'perma'
